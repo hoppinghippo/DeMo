@@ -1,0 +1,159 @@
+.navbar{
+    background-color: #F56462; 
+    border-bottom: 1px solid black;
+    padding:0px;
+}
+.navbar>.container{
+    padding:0px;
+    margin-right: 20px; 
+}
+#brandimg{
+    margin-top: -5px;
+    margin-bottom: -5px;
+    height:30px;
+}
+#toggleimg{
+    margin-top: 10px;
+    height:30px;
+}
+.floatright{
+    float:right;
+}
+
+.navbar-btn{
+    background-color: #F56462;
+    border: none;
+    color:black; 
+    font-size:1.5em;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+.navbar-btn:hover{
+    background-color: #F56462;
+    border: none;
+    color:white; 
+
+
+}
+.togglecontainer{
+    right:10px; 
+    float:right;
+    margin-left: 20px; 
+    margin-right: 50px;
+
+}
+.pictureHolder{
+
+    width: 100%;
+    height:500px;
+    overflow-y: hidden;
+    background-image: url("../img/EAOCZEFTBS.jpg");
+    background-size: cover;
+   
+}
+.student{
+      background-image: url("../svg/AppScouts_Students.svg");
+      height:170px;
+      width:170px;
+}
+.contentHolder{
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+  
+
+}
+.textHolder{
+   
+      text-align: left;
+      font-size: 1.5em;
+      color: white;
+}
+.page-content{
+    background-color: white;
+    color:black;
+    min-height: 500px;
+    padding: 10%;
+}
+
+.footer,footer{
+    height:300px;
+    width:100%;
+    background-color: black;
+    color:white !important;
+    padding:3%;
+    font-size: 2em;
+
+}
+a{
+
+     color:white;
+
+}
+h1{
+    color:#F56462;
+}
+.topLink{
+    font-size: 3em;
+    margin:10px;
+    font-weight: bold;
+
+}
+p{
+    text-align: left;
+    margin:5px;
+    font-size: 1.2em;
+}
+.company{
+    font-size:.7em;
+}
+.navbar-right{
+    margin-right: 35px;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dropdown-menu{
+    min-width: 280px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-right: -1px;
+}
+.dropdown-menu>li>a{
+    background-color: white;
+    color:black;
+    font-size: 1.5em;
+    padding:5px;
+    padding-left:25px;
+}
+.dropdown-menu>li>a:hover{
+    color:white;
+    background-color:#F56462;
+
+}
+.navbar-nav>.open>a{
+     background-color: white !important;
+}
+#iconimg{
+    height:170px;
+    width:170px;
+}
+h4{
+    margin-right: -35px;
+    margin-top: 20px;
+    color:#F56462;
+    font-size: 2em;
+}
+.col-md-3{
+    padding:20px;
+}
+@font-face {
+    font-family: leauge;
+    src: url(../misc/leaguegothic-regular-webfont.woff);
+}
+body{
+    font-family: leauge;
+}
+
