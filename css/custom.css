@@ -151,7 +151,7 @@ h4{
 }
 @font-face {
     font-family: leauge;
-    src: url(../misc/leaguegothic-regular-webfont.woff);
+    src: url("../misc/leaguegothic-regular-webfont.woff");
 }
 body{
     font-family: leauge;
