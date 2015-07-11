@@ -11,41 +11,7 @@
     <body>
  
 
- 		<nav class="navbar navbar-default navbar-fixed-top">
-		
-	  	     <div class="navbar-header">
-		    	 <a class="navbar-brand" href="#">
-		     		<img id="brandimg" alt="Brand" src="svg/AppScouts_Logo.svg">
-		    	 </a>
-		     </div>
-	
-			 <div class="navbar-collapse navbar-right">
-
-				 <ul class="nav navbar-nav">
-			 
-				     <li><button type="button" class="btn btn-default navbar-btn">Sign in</button> |</li>
-				     <li><button type="button" class="btn btn-default navbar-btn">About</button></li>
-				     <li><button type="button" class="btn btn-default navbar-btn">Locations</button></li>
-
-			      	 <ul class="nav navbar-nav">
-				         <li class="dropdown">
-				             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-				             	<img id="brandimg" src="svg/AppScouts_Menu.svg"></a>
-				             <ul class="dropdown-menu">
-				         	    <li><a href="#">Sign Up</a></li>
-				         	    <li><a href="#">Core Principles</a></li>
-				         	    <li><a href="#">Locations</a></li>
-				         	    <li><a href="#">About Mavin Education</a></li>
-				         	    <li><a href="#">STEAMB Framework</a></li>
-				             </ul>
-				         </li>
-				     </ul>
-				 </ul>
-
-			    
-			 </div>
-		
-		</nav>
+ 		<?php include 'header.php';?>
 
 		<div class="container-fluid">
 
@@ -53,8 +19,8 @@
 				<div class="contentHolder">
 					<div class="row">
 						<div style="text-align:center;">
-							<a href="student.html" class="topLink">Students</a>
-							<a href="school.html" class="topLink">Schools</a>
+							<a href="student.php" style="border-bottom:2px solid white;" class="topLink">Students</a>
+							<a href="school.php" class="topLink">Schools</a>
 						</div>
 					</div>
 					<div class="row" style="margin-top:30px;">
@@ -63,7 +29,7 @@
 						</div>
 						<div class="col-xs-8">
 							<div class="textHolder">
-								<h2>STUDENTS</h2>
+								<h3>STUDENTS</h3>
 								<p>With App Scouts, you will have the opportunity to apply what you’ve learned in the classroom to create your own games and apps.</p>
 								
 							</div>
@@ -100,33 +66,7 @@
 
 		</div>
     
-     	<footer>
-     		<div class="row">
-	     		<div class="col-xs-2"></div>
-	     		<div class="col-xs-4">
-	     			<div class="col-xs-6">
-		     			<a>About</a><br/>
-		     			<a>Locations</a><br/>
-		     			<a>Contact</a><br/>
-		     			<a>Reports</a><br/>
-		     			<a>STEAMB</a><br/>
-	     			</div>
-	     			<div class="col-xs-6">
-		     			<a>Students</a><br/>
-		     			<a>Universities</a><br/>
-		     			<a>Entrepreneurs</a><br/>
-		     			<a>Consumers</a><br/>
-	     			</div>
-	     		</div>
-	     		<div class="col-xs-4">
-	     			TWITTER FEED
-	     		</div>
-	     		<div class="col-xs-2"></div>
-     		</div>
-     		<div class="row company" style="text-align:center; padding-top:20px;">
-     			App Scouts 2015 &copy;
-     		</div>
-     	</footer>
+     	<?php include 'footer.php';?>
 
 
     </body>
