@@ -9,6 +9,11 @@
 }
 #brandimg{
     margin-bottom: 10px;
+    margin-top: -5px;
+    height:30px;
+}
+#menuimg{
+    margin-bottom: 10px;
     height:30px;
 }
 #toggleimg{
@@ -193,6 +198,7 @@ p{
 }
 body{
     font-family: leauge;
+    background-color: black;
 }
 
 h1{

@@ -18,7 +18,7 @@
 	      	 <ul class="nav navbar-nav">
 		         <li class="dropdown">
 		             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-		             	<img id="brandimg"  src="svg/AppScouts_Menu.svg"></a>
+		             	<img id="menuimg"  src="svg/AppScouts_Menu.svg"></a>
 		             <ul class="dropdown-menu">
 		         	    <li><a href="signup.php">Sign Up</a></li>
 		         	    <li><a href="core.php">Core Principles</a></li>
