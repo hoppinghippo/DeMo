@@ -1,36 +1,10 @@
-
-<nav class="navbar navbar-default navbar-fixed-top">
-
-	 <div class="navbar-header">
-		 <a class="navbar-brand" href="index.php">
-	 		<img id="brandimg" alt="Brand" src="svg/AppScouts_Logo.svg">
-		 </a>
-	 </div>
-
-	 <div class="navbar-collapse navbar-right">
-
-		 <ul class="nav navbar-nav">
-	 
-		     <li><a type="button" class="btn btn-default navbar-btn">Sign in</a></li>
-		     <li><a type="button" href="process.php" class="btn btn-default navbar-btn">About</a></li>
-		   <!--  <li><a type="button" class="btn btn-default navbar-btn">Locations</a></li>-->
-
-	      	 <ul class="nav navbar-nav">
-		         <li class="dropdown">
-		             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-		             	<img id="menuimg"  src="svg/AppScouts_Menu.svg"></a>
-		             <ul class="dropdown-menu">
-		         	    <li><a href="signup.php">Sign Up</a></li>
-		         	    <li><a href="core.php">Core Principles</a></li>
-		         	  <!--  <li><a href="#">Locations</a></li> -->
-		         	    <li><a href="education.php">About Mavin Education</a></li>
-		         	    <li><a href="steamb.php">STEAMB Framework</a></li>
-		             </ul>
-		         </li>
-		     </ul>
-		 </ul>
-
-	    
-	 </div>
-
-</nav>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>DeMo</title>       
+        <link rel="stylesheet" href="css/bootstrap-3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>

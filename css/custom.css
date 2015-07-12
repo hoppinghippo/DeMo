@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #F56462; 
+    background-color: #29E2B0; 
     border-bottom: 1px solid black;
     padding:0px;
 }
@@ -25,7 +25,7 @@
 }
 
 .navbar-btn{
-    background-color: #F56462;
+    background-color: #29E2B0;
     border: none;
     color:black; 
     font-size:1.5em;
@@ -34,7 +34,7 @@
 
 }
 .navbar-btn:hover{
-    background-color: #F56462;
+    background-color: #29E2B0;
     border: none;
     color:white; 
 
@@ -67,7 +67,7 @@
    
 }
 .student{
-      background-image: url("../svg/AppScouts_Students.svg");
+      background-image: url("../svg/DeMo-14.svg");
       height:170px;
       width:170px;
 }
@@ -122,7 +122,7 @@ a{
 
 }
 h1{
-    color:#F56462;
+    color:#29E2B0;
 }
 .topLink{
     font-size: 3em;
@@ -150,34 +150,7 @@ p{
 .company{
     font-size:.7em;
 }
-.navbar-right{
-    margin-right: 35px;
-}
-.container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.dropdown-menu{
-    min-width: 280px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    margin-right: -1px;
-}
-.dropdown-menu>li>a{
-    background-color: white;
-    color:black;
-    font-size: 1.5em;
-    padding:5px;
-    padding-left:25px;
-}
-.dropdown-menu>li>a:hover{
-    color:white;
-    background-color:#F56462;
 
-}
-.navbar-nav>.open>a{
-     background-color: white !important;
-}
 #iconimg{
     height:80%;
     width:80%;
@@ -210,7 +183,7 @@ h1{
 
 h2{
     font-size: 3em;
-    color: #F56462; 
+    color: #29E2B0; 
     font-family: leauge;
     margin-bottom: 20px;
     text-align: center;
@@ -223,7 +196,7 @@ h3{
 h4{
     margin-right: -35px;
     margin-top: 20px;
-    color:#F56462;
+    color:#29E2B0;
     font-size: 2em;
     text-align: left;
     margin-left: 5px;
@@ -231,7 +204,7 @@ h4{
 
 .bigButton{
     padding:15px;
-    background-color: #F56462; 
+    background-color: #29E2B0; 
     color:black;
     width:40%;
     margin:30px;
@@ -239,12 +212,106 @@ h4{
     text-align: center;
     font-size: 3em;
 }
+
+.contentHolderTwo>p{
+    font-size: 1.5em;
+}
+
+
+
+.navbar-right{
+    margin-right: 35px;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dropdown-menu{
+    min-width: 280px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-right: -1px;
+}
+.dropdown-menu>li>a{
+    background-color: white;
+    color:black;
+    font-size: 1.5em;
+    padding:5px;
+    padding-left:25px;
+}
+.dropdown-menu>li>a:hover{
+    color:white;
+    background-color:#29E2B0;
+
+}
+.navbar-nav>.open>a{
+     background-color: white !important;
+}
+
 .navbar-default .navbar-nav>li>a{
     color:black;
     padding-top: 11px !important;
     padding-bottom: 0px;
 }
 
-.contentHolderTwo>p{
-    font-size: 1.5em;
+@media (max-width: 750px) {
+    .navbar-right{
+        float:right;
+        margin-right: 35px;
+        width: 86%;
+        margin-top: -65px;
+    }
+    .navbar-header{
+          display: inline;
+          clear: right;
+          width: 10%;
+          float: left;
+
+    }
+    h1{
+        padding-top: 20px
+    }
+    #menuimg {
+        float: right;
+      height: 40px;
+    }
+    #brandimg {
+        float: left;
+      height: 40px;
+    }
+    
+    .nav>li>a {
+        padding:0px;
+
+    }
+    .contentHolder {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .container-fluid {
+      margin-top: 25px;
+    }
+    .navbar {
+         border-bottom: none;
+    }
+    .navbar-brand{
+        margin-top: 5px;
+    }
+
+    .navbar-nav>.open>a {
+        background-color: #29E2B0 !important; 
+    }
+    .student{
+        display:none;
+    }
+    .textHolder{
+        padding:10px;
+    }
+ 
+
+
+
+
 }
+
